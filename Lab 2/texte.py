@@ -1,0 +1,11 @@
+
+print("Analyse de texte : ")
+texte = input("Entrer un mot ou une phrase : ")
+print(f"Texte original : {texte}")
+print(f"Longueur : {len(texte)} caractères")
+print(f"Majuscules : {texte.upper()}")
+print(f"Minuscules : {texte.lower()}")
+print(f"Inversé : {texte[::-1]}")
+print("\nComparaison :")
+print(f"Original : {texte}")
+print(f"Inversé : {texte[::-1]}")
